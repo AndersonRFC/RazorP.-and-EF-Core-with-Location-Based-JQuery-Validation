@@ -32,4 +32,6 @@ app.UseAuthorization();
 
 app.MapRazorPages();
 
+app.UseRequestLocalization("pt-BR");
+
 app.Run();
